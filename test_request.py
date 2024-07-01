@@ -1,6 +1,7 @@
 import requests
 
-url = 'http://127.0.0.1:5000/remove_background'
+#url = 'http://127.0.0.1:5000/remove_background'
+url= 'https://remove-back-bm687xptl-eloaizadlbs-projects.vercel.app/remove_background'
 
 # Leer el base64 desde el archivo de texto
 with open('image_base64.txt', 'r') as text_file:
